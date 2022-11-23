@@ -10,6 +10,6 @@ https://stupid-gif-finder.netlify.app/
 
 
 ## Tech used
-    - ReactJS
-    - TypeScript
-    - Jest
+   - ReactJS
+   - TypeScript
+   - Jest
