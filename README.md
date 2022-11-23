@@ -1,4 +1,4 @@
-#Gif Finder
+# Gif Finder
 
 Find your gifs with Giphy API!
 
