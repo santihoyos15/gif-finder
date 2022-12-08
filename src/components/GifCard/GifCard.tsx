@@ -4,7 +4,7 @@ export type Gif = {
   url: string
 }
 
-export const GifCard = ({ id, title, url }: Gif) => {
+export const GifCard = ({ title, url }: Gif) => {
   return (
     <div className="card">
       <img src={url} alt={title} />
