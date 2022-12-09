@@ -9,7 +9,7 @@ type propTypes = {
 
 export const GifGrid = ({ query }: propTypes) => {
 
-  const { gifs, isError, isLoading } = useGifs(query);
+  const { gifs, isError, isLoading } = useGifs(query, 5);
 
   return (
     <div>

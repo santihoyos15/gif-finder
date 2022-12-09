@@ -7,8 +7,8 @@ export type Gif = {
 export const GifCard = ({ title, url }: Gif) => {
   return (
     <div className="card">
-      <img src={url} alt={title} />
-      <p>{title}</p>
+      <img data-testid="gif-card-image" src={url} alt={title} />
+      <p data-testid="gif-card-title">{title}</p>
     </div>
   )
 }
